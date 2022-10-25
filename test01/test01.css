@@ -1,0 +1,9 @@
+img {
+    width: 500px;
+    height: auto;
+    display: block;
+}
+img:hover {
+    transition: 1s;
+    filter: invert();
+}

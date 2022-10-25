@@ -1,0 +1,42 @@
+body {margin: 0%;}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    border: solid black 2vw;
+
+    text-align: center;
+    font-weight: bolder;
+    font-size: 10vw;
+}
+
+#spacer1 {
+    border-top: red solid 10px;
+    border-bottom: red dashed 10px;
+}
+#spacer1:hover {
+    border-bottom: navy dashed 10px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.grid2-item {
+    border: solid black 2vw;
+
+    text-align: center;
+    font-weight: bolder;
+    font-size: 10vw;
+}
+.grid2-item2 {
+    border: solid black 2vw;
+
+    text-align: center;
+    font-weight: bolder;
+    font-size: 10vw;
+    grid-area: 1 / 2 / 3 / 5;
+}
